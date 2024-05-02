@@ -13,22 +13,22 @@ const TechStack = () => {
       
       <div className=" relative xl:text-4xl 2xl:text-4xl text-2xl text-start ml-5  pt-5 text-white   ">
         
-        <h1 className="font-bold   ml-10 text-4xl   ">TECHNOLOGY STACK</h1>
+        <h1 className="font-bold   ml-10 text-2xl sm:text-4xl   ">TECHNOLOGY STACK</h1>
       </div>
       <div className=" flex-col  xl: xl:justify-around xl:w-auto  2xl:justify-between flex md:justify-start lg:flex-row xl:flex-row   sm:flex-col justify-between   my-65">
         <div className=" ml-0 xl:w-auto  mx-10 py-10 pl-10 font-poppins ">
-          <div className=" xl:w-auto    xl:text-xl  xl:my-2 2xl:w-100  my-2 sm:w-96  hover:text-white ">
+          <div className=" xl:w-auto  2xl:w-auto  xl:text-xl  xl:my-2 2xl:w-100  my-2 sm:w-96  hover:text-white ">
             <a
               href="#"
               className=" flex md:justify-start flex-row  items-center  bg-blue-800  shadow md:flex-row md:max-w-xl hover:bg-gray-400 hover:text-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
             >
               <img
-                className=" mx-5 md: object-cover rounded-t-lg md:w-auto "
+                className=" mx-5 h-auto md: object-cover rounded-t-lg md:w-auto "
                 src="15.svg"
                 alt=""
               />
-              <div className=" justify-between md:w-auto py-2 leading-normal">
-                <h4 className="xl:text-xl 2xl:text-4xl  hover:text-white  md:w-auto mx-4  mb-2 text-3xl font-bold tracking-tight text-white  dark:text-white">
+              <div className=" justify-between  md:w-auto py-2 leading-normal">
+                <h4 className="xl:text-xl 2xl:text-2xl text-xl hover:text-white  md:w-auto mx-4  mb-2 sm:text-3xl font-bold tracking-tight text-white  dark:text-white">
                   Mobile App <br /> Development
                 </h4>
               </div>
@@ -40,12 +40,12 @@ const TechStack = () => {
               className="flex  flex-row items-center  bg-blue-800  shadow md:flex-row md:max-w-xl hover:bg-gray-400 hover:text-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
             >
               <img
-                className=" mx-5 object-cover py-2 rounded-t-lg "
+                className=" mx-5  object-cover py-2 rounded-t-lg "
                 src="16.svg"
                 alt=""
               />
               <div className=" justify-between py-2 leading-normal">
-                <h4 className="xl:text-xl 2xl:text-2xl hover:text-white mx-4 px-4 mb-2 text-3xl font-bold tracking-tight text-white  dark:text-white">
+                <h4 className="xl:text-xl 2xl:text-2xl hover:text-white mx-4 px-4 mb-2 text-xl sm:text-3xl font-bold tracking-tight text-white  dark:text-white">
                   Web <br /> Development
                 </h4>
               </div>
@@ -62,7 +62,7 @@ const TechStack = () => {
                 alt=""
               />
               <div className=" text-end py-2 leading-normal">
-                <h4 className="xl:text-xl 2xl:text-2xl hover:text-white mx-4 px-4 mb-2 text-3xl font-bold tracking-tight text-white  dark:text-white">
+                <h4 className="xl:text-xl 2xl:text-2xl hover:text-white mx-4 px-4 mb-2 text-xl sm:text-3xl font-bold tracking-tight text-white  dark:text-white">
                   UI/UX DESIGN
                 </h4>
               </div>
@@ -74,7 +74,7 @@ const TechStack = () => {
           
           <div className=" w-auto h-auto mx-4  my-9">
 
-            <p className=" xl:text-lg 2xl:text-2xl my-10 text-xl px-4 mx-4 sm:mx-2 text-white">
+            <p className=" lg:text-xl md:text-2xl xl:text-lg 2xl:text-2xl my-10 text-sm  sm:text-xl px-4 mx-4 sm:mx-2 text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Dignissimos sunt <br /> ipsum iure assumenda rem modi maxime
               aperiam minus quaerat. Laborum <br />
@@ -82,21 +82,21 @@ const TechStack = () => {
               quam!{" "}
             </p>
             <div className="flex xl:text-2xl 2xl:text-4xl flex-row justify-start   items-center">
-              <div className="applelogo h-34  px-2 py-4 mx-4">
-                <img className="  " src="apple.svg" alt="" />
-                <span className="ml-4">iOS</span>
+              <div className="applelogo h-34  sm:px-2 py-4 mx-1 sm:mx-4">
+                <img className="h-auto w-auto  " src="apple.svg" alt="" />
+                <span className="ml-4 md:text-2xl">iOS</span>
               </div>
-              <div className="android px-4 py-4 mx-4">
+              <div className="android sm:px-2 py-4 mx-1 sm:mx-4">
                 <img src="Android.svg" alt="" />
-                <span>Android</span>
+                <span className="md:text-2xl">Android</span>
               </div>
-              <div className="flutter px-4 py-4 mx-4">
+              <div className="flutter sm:px-2 py-4 mx-1 sm:mx-4">
                 <img src="Flutter.svg" alt="" />
-                <span>Flutter</span>
+                <span className="md:text-2xl">Flutter</span>
               </div>
-              <div className="reactNaive px-4 py-4 mx-4">
+              <div className="reactNaive sm:px-2 py-4 mx-1 sm:mx-4">
                 <img src="React.svg" alt="" />
-                <span>React Native</span>
+                <span className="md:text-2xl">React Native</span>
               </div>
             </div>
           </div>
