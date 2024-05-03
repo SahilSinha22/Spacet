@@ -37,7 +37,7 @@ const intro = () => {
         </div>
       </div>
 
-      <div className="  my-4 mx-0 sm:h-auto  lg:py-2 sm:w-auto  ml-2 xl:h-auto   lg:mx-7  2xl:mr-4 xl:mr-4 xl:pr-4  sm:mr-2 md:mr-4 w-auto h-auto sm:ml-4    text-center items-center  lg:mr-10  sm:py-4 flex  flex-col border gap-4 space-y-4 rounded-lg sm:px-4 py-4  bg-white   ">
+      <div className="  my-4 mx-0 sm:h-auto  lg:py-2 sm:w-auto  ml-2 lg:h-[631px]   lg:mx-7  2xl:mr-4 xl:mr-4 xl:pr-4  sm:mr-2 md:mr-4 w-auto h-auto sm:ml-4    text-center items-center  lg:mr-10  sm:py-4 flex  flex-col border gap-4 space-y-4 rounded-lg sm:px-4 py-4  bg-white   ">
         <h1 className=" mt-4 md:text-5xl lg:text-4xl text-2xl xl:text-4xl drop-shadow-xl  font-semibold font-poppins text-blue-700 text-center">
           Let's Get to Know you
         </h1>

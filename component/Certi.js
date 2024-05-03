@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const Certi = () => {
   return (
     <div className=" flex flex-col   py-5  items-center">
@@ -16,23 +16,28 @@ const Certi = () => {
     
         <div className="flex w-auto flex-row xl:justify-between  2xl:justify-between space-x-2 items-center justify-center py-5">
           <div className="ml-5 pl-5 pr-3">
-            <img className="h-auto w-auto" src="20.svg" alt="" />
+            <Image className="" src="20.svg" alt="certi"  width={150}
+                height={5} />
           
           </div>
           <div className="mx-5 px-5">
-            <img src="freelencer.svg" alt="" />
+            <Image src="freelencer.svg" alt="certi"  width={150}
+                height={5} />
            
           </div>
           <div className="mx-5 px-5">
-            <img src="App future.svg" alt="" />
+            <Image src="App future.svg" alt="certi"   width={150}
+                height={5}/>
             
           </div>
           <div className="mx-5 px-">
-            <img src="Good Films.svg" alt="" />
+            <Image src="Good Films.svg" alt="certi"  width={150}
+                height={5} />
             
           </div>
           <div className="mx-5 px-5">
-            <img src="clutech.svg" alt="" />
+            <Image src="clutech.svg" alt="certi"  width={150}
+                height={5}/>
             
           </div>
         </div>

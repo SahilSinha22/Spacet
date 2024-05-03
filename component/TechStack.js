@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const TechStack = () => {
   return (
     <div
@@ -22,10 +22,12 @@ const TechStack = () => {
               href="#"
               className=" flex md:justify-start flex-row  items-center  bg-blue-800  shadow md:flex-row md:max-w-xl hover:bg-gray-400 hover:text-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
             >
-              <img
+              <Image
                 className=" mx-5 h-auto md: object-cover rounded-t-lg md:w-auto "
                 src="15.svg"
-                alt=""
+                alt="App"
+                width={50}
+                height={5}
               />
               <div className=" justify-between  md:w-auto py-2 leading-normal">
                 <h4 className="xl:text-xl 2xl:text-2xl text-xl hover:text-white  md:w-auto mx-4  mb-2 sm:text-3xl font-bold tracking-tight text-white  dark:text-white">
@@ -39,10 +41,12 @@ const TechStack = () => {
               href="#"
               className="flex  flex-row items-center  bg-blue-800  shadow md:flex-row md:max-w-xl hover:bg-gray-400 hover:text-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
             >
-              <img
+              <Image
                 className=" mx-5  object-cover py-2 rounded-t-lg "
                 src="16.svg"
-                alt=""
+                alt="web"
+                width={50}
+                height={5}
               />
               <div className=" justify-between py-2 leading-normal">
                 <h4 className="xl:text-xl 2xl:text-2xl hover:text-white mx-4 px-4 mb-2 text-xl sm:text-3xl font-bold tracking-tight text-white  dark:text-white">
@@ -56,10 +60,12 @@ const TechStack = () => {
               href="#"
               className="flex  flex-row items-between py-2  h-85 bg-blue-800  shadow md:flex-row md:max-w-xl hover:bg-gray-400 hover:text-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
             >
-              <img
+              <Image
                 className=" mx-2 object-cover py-2 rounded-t-lg "
                 src="17.svg"
-                alt=""
+                alt="UI/Ux"
+                width={50}
+                height={5}
               />
               <div className=" text-end py-2 leading-normal">
                 <h4 className="xl:text-xl 2xl:text-2xl hover:text-white mx-4 px-4 mb-2 text-xl sm:text-3xl font-bold tracking-tight text-white  dark:text-white">
@@ -70,7 +76,7 @@ const TechStack = () => {
           </div>
         </div>
 
-        <div className="w-auto  h-auto  xl:w-auto sm:w-auto xl:mr-4 2xl:w-auto 2xl:mr-0  py-2 my-12 rounded-xl  items-start bg-blue-800 sm:ml-2 sm:mr-2  mx-10 h-55  text-start  text-white ">
+        <div className="w-auto  h-auto lg:mr-8 xl:w-auto sm:w-auto xl:mr-4 2xl:w-auto 2xl:mr-12  py-2 my-12   items-start bg-blue-800 sm:ml-2 sm:mr-2  mx-10 h-55  text-start  text-white ">
           
           <div className=" w-auto h-auto mx-4  my-9">
 
@@ -83,19 +89,23 @@ const TechStack = () => {
             </p>
             <div className="flex xl:text-2xl 2xl:text-4xl flex-row justify-start   items-center">
               <div className="applelogo h-34  sm:px-2 py-4 mx-1 sm:mx-4">
-                <img className="h-auto w-auto  " src="apple.svg" alt="" />
+                <Image className="h-auto w-auto  " src="apple.svg" alt="logo"  width={50}
+                height={5}/>
                 <span className="ml-4 md:text-2xl">iOS</span>
               </div>
               <div className="android sm:px-2 py-4 mx-1 sm:mx-4">
-                <img src="Android.svg" alt="" />
+                <Image src="Android.svg" alt="android"  width={50}
+                height={5} />
                 <span className="md:text-2xl">Android</span>
               </div>
               <div className="flutter sm:px-2 py-4 mx-1 sm:mx-4">
-                <img src="Flutter.svg" alt="" />
+                <Image src="Flutter.svg" alt="flutter"  width={50}
+                height={5} />
                 <span className="md:text-2xl">Flutter</span>
               </div>
               <div className="reactNaive sm:px-2 py-4 mx-1 sm:mx-4">
-                <img src="React.svg" alt="" />
+                <Image src="React.svg" alt="react"  width={50}
+                height={5} />
                 <span className="md:text-2xl">React Native</span>
               </div>
             </div>

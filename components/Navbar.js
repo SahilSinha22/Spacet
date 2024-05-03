@@ -1,14 +1,14 @@
 "use client"
 import { useState } from "react";
 import React from "react";
-
+import Image from "next/image";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="  lg:flex-row flex xl:h-20 flex-row sm:w-45 xl:ml-4 xl:text-lg 2xl:h-auto xl:flex-row   xl:justify-between 2xl:flex-row   2xl:justify-between  items-center   justify-between  md:flex-row   xl:right-0 flex-wrap ">
-      <div className=" xl:mr-20 2xl:mx-10 2xl:mr-20 w-1/2  lg:w-auto sm:w-10/12 mr-4  xl:w-auto xl:mt-0  xl:pt-0     xl:w-35 xl:flex-row sm:pr-0 flex  2xl:flex-row xl:ml-2 items-center lg:flex-row  lg:m-0  md:justify-between  text-white sm:mr-0  ">
+      <div className=" ml-4 lg:ml-2 xl:mr-20 2xl:mx-10 2xl:mr-20 w-1/2  lg:w-auto sm:w-10/12 mr-4  xl:w-auto xl:mt-0  xl:pt-0     xl:w-35 xl:flex-row sm:pr-0 flex  2xl:flex-row xl:ml-2 items-center lg:flex-row  lg:m-0  md:justify-between  text-white sm:mr-0  ">
         <a href="">
-        <img src="18.svg" className="ml-2 lg:w-1/2 w-10/12  h-12 2xl:w-auto  xl:w-35 sm:w-auto sm:h-auto  2xl:h-95 lg:h-10 h-12 " alt="" />
+        <Image src={"./18.svg"} className="lg:w-10/12" alt="logo" width={400} height={30}/>
         </a>
       </div>
       <div className="block lg:hidden">
@@ -34,7 +34,7 @@ const Navbar = () => {
      </div>
         <div
           id="mega-menu-full"
-          className={` w-full xl:mt-0 xl:pt-0 block flex-grow lg:flex lg:mt-2 lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"} `}
+          className={`lg:mr-4 lg:justify-end w-full xl:mt-0 xl:pt-0 block flex-grow lg:flex lg:mt-2 lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"} `}
         >
           <ul className=" flex flex-col xl:text-lg xl:mt-0 xl:justify-end    2xl:text-2xl   sm:flex-col mr-8 md:text-lg lg:flex-row md:p-2 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>

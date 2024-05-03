@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const jouney = () => {
   return (
     <div className='flex flex-col justify-center  py-5 items-center'>
@@ -9,7 +9,7 @@ const jouney = () => {
       </h1>
       </div>
       <div className="mx-2 item-center">
-      <img className="items-center" src="10.svg" alt="" />
+      <Image className="items-center" src="10.svg" alt="Journey" width={1000} height={150} />
     </div>
     </div>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const partner = () => {
   return (
     
@@ -16,23 +16,23 @@ const partner = () => {
       </div>
     
         <div className=" md:ml-2 md:w-auto flex flex-row xl:justify-around  2xl:justify-around sm:items-center sm:justify-center  w-full bg-gray-200 justify-around  gap-5 ">
-          <div className=' my-1 sm:px-5 sm:py-5'>
-            <img src="1.svg" alt="" />
+          <div className=' my-1 ml-1  sm:py-5'>
+            <Image src="1.svg" alt="logo" width={200} height={2}/>
           </div>
-          <div className=' my-1 sm:px-5 sm:py-5'>
-            <img src="2.svg" alt="" />
+          <div className=' my-1  sm:py-5'>
+            <Image src="2.svg" alt="logo" width={200} height={10}/>
           </div>
-          <div className='my-1 sm:px-5 sm:py-5'>
-            <img src="3.svg" alt="" />
+          <div className='my-1  sm:py-5'>
+            <Image src="3.svg" alt="logo" width={200} height={10} />
           </div>
-          <div className='my-1 sm:px-5 sm:py-5'>
-            <img src="4.svg" alt="" />
+          <div className='my-1  sm:py-5'>
+            <Image src="4.svg" alt="logo" width={200} height={10} />
           </div>
-          <div className='my-1 sm:px-5 sm:py-5'>
-            <img src="5.svg" alt="" />
+          <div className='my-1  sm:py-5'>
+            <Image src="5.svg" alt="logo"  width={150} height={2}/>
           </div>
-          <div className='my-1 sm:px-5 sm:py-5'>
-            <img src="6.svg" alt="" />
+          <div className='my-1  sm:py-5'>
+            <Image src="6.svg" alt="logo" width={200} height={10} />
           </div>
           </div>
         </div>
