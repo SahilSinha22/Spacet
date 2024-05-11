@@ -5,7 +5,7 @@ const partner = () => {
     
     <div className="border border-box  flex flex-col   ">
       <div className="font-poppins text-center">
-        <h1 className="text-blue-500 md:text-6xl xl:text-6xl mt-10 capitalize font-bold font-poppins text-3xl text-center dark:text-white">Our Partners</h1>
+        <h1 className="text-blue-500 md:text-6xl xl:text-6xl mt-10 capitalize font-bold font-poppins text-3xl text-center ">Our Partners</h1>
         <p className="text-black  md:text-2xl xl:mx-2 2xl:mx-2 xl:text-2xl 2xl:text-2xl text-sm  sm:text-xl text-center justify-center px-5 py-5">
           {" "}
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, sunt
