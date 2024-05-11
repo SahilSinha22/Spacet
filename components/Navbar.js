@@ -36,11 +36,11 @@ const Navbar = () => {
           id="mega-menu-full"
           className={`lg:mr-4 lg:justify-end w-full xl:mt-0 xl:pt-0 block flex-grow lg:flex lg:mt-2 lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"} `}
         >
-          <ul className=" flex flex-col xl:text-lg xl:mt-0 xl:justify-end    2xl:text-2xl   sm:flex-col mr-8 md:text-lg lg:flex-row md:p-2 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className=" flex flex-col xl:text-lg xl:mt-0 xl:justify-end    2xl:text-2xl   sm:flex-col mr-8 md:text-lg lg:flex-row md:p-2 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white  ">
             <li>
               <a
                 href="#"
-                className="lg:text-lg   ml-2  2xl:text-2xl   block text-2xl md:text-lg py-2 lg:px-1 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                className="lg:text-lg   ml-2  2xl:text-2xl   block text-2xl md:text-lg py-2 lg:px-1 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 "
                 aria-current="page"
               >
                 Home
@@ -50,7 +50,7 @@ const Navbar = () => {
               <button
                 id="mega-menu-full-dropdown-button"
                 data-collapse-toggle="mega-menu-full-dropdown"
-                className=" lg:text-lg 2xl:text-2xl   flex md:text-lg text-2xl items-center justify-between w-full py-2 px-3 text-gray-900 rounded md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                className=" lg:text-lg 2xl:text-2xl   flex md:text-lg text-2xl items-center justify-between w-full py-2 px-3 text-gray-900 rounded md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white "
               >
                 Services{" "}
                 <svg
@@ -74,7 +74,7 @@ const Navbar = () => {
               <button
                 id="mega-menu-full-dropdown-button"
                 data-collapse-toggle="mega-menu-full-dropdown"
-                className=" lg:text-lg 2xl:text-2xl   md:text-lg flex text-2xl items-center justify-between w-full py-2 px-3 text-gray-900 rounded md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                className=" lg:text-lg 2xl:text-2xl   md:text-lg flex text-2xl items-center justify-between w-full py-2 px-3 text-gray-900 rounded md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500"
               >
                 Technologies{" "}
                 <sv
@@ -97,7 +97,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="  lg:text-lg 2xl:text-2xl   md:text-lg  block text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                className="  lg:text-lg 2xl:text-2xl   md:text-lg  block text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 "
               >
                 Portfolio
               </a>
@@ -105,7 +105,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="  lg:text-lg 2xl:text-2xl   md:text-lg block text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                className="  lg:text-lg 2xl:text-2xl   md:text-lg block text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 "
               >
                Partnership
               </a>
@@ -113,7 +113,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="  lg:text-lg  2xl:text-2xl   md:text-lg block py-2 text-2xl px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                className="  lg:text-lg  2xl:text-2xl   md:text-lg block py-2 text-2xl px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 "
               >
                 Blog
               </a>
@@ -121,7 +121,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="  lg:text-lg 2xl:text-2xl   md:text-lg block py-2 text-2xl px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                className="  lg:text-lg 2xl:text-2xl   md:text-lg block py-2 text-2xl px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500"
               >
                 Career
               </a>
