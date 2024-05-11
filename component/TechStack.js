@@ -20,7 +20,7 @@ const TechStack = () => {
           <div className=" xl:w-auto  2xl:w-auto  xl:text-xl  xl:my-2 2xl:w-100  my-2 sm:w-96  hover:text-white ">
             <a
               href="#"
-              className=" flex md:justify-start flex-row  items-center  bg-blue-800  shadow md:flex-row md:max-w-xl hover:bg-gray-400 hover:text-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              className=" flex md:justify-start flex-row  items-center  bg-blue-800  shadow md:flex-row md:max-w-xl hover:bg-gray-400 hover:text-white  "
             >
               <Image
                 className=" mx-5 h-auto md: object-cover rounded-t-lg md:w-auto "
@@ -39,7 +39,7 @@ const TechStack = () => {
           <div className=" mt-10 sm:w-96 hover:text-white ">
             <a
               href="#"
-              className="flex  flex-row items-center  bg-blue-800  shadow md:flex-row md:max-w-xl hover:bg-gray-400 hover:text-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              className="flex  flex-row items-center  bg-blue-800  shadow md:flex-row md:max-w-xl hover:bg-gray-400 hover:text-white "
             >
               <Image
                 className=" mx-5  object-cover py-2 rounded-t-lg "
@@ -58,7 +58,7 @@ const TechStack = () => {
           <div className=" mt-10  sm:w-96 xl:text-xl 2xl:w-100 hover:text-white ">
             <a
               href="#"
-              className="flex  flex-row items-between py-2  h-85 bg-blue-800  shadow md:flex-row md:max-w-xl hover:bg-gray-400 hover:text-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              className="flex  flex-row items-between py-2  h-85 bg-blue-800  shadow md:flex-row md:max-w-xl hover:bg-gray-400 hover:text-white "
             >
               <Image
                 className=" mx-2 object-cover py-2 rounded-t-lg "
