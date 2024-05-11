@@ -14,23 +14,23 @@ const intro = () => {
       
       <div className="   my-auto xl:my-auto sm:my-auto xl:mx-4 space-y-5 mx-19 text-center items-center  ">
         <div className="md:text-4xl  2xl:my-4  2xl:text-4xl sm:m-0  font-extrabold  text-xl text-center items-center mx-5">
-          <p className="    sm:m-0 mx-2 my-2  text-white  dark:text-gray-400 px-5 py-2 max-w-150 max-h-11 font-poppins  text-center  ">
+          <p className="    sm:m-0 mx-2 my-2  text-white   px-5 py-2 max-w-150 max-h-11 font-poppins  text-center  ">
             Unlock your Business
           </p>
-          <p className="sm:m-0 mx-2 my-2 text-white space-y-2 dark:text-gray-400 px-5 py-4 max-w-150 max-h-11 font-poppins text-center  ">
+          <p className="sm:m-0 mx-2 my-2 text-white space-y-2  px-5 py-4 max-w-150 max-h-11 font-poppins text-center  ">
             Potential to the Fullest{" "}
           </p>
-          <p className="sm:m-0 mx-2 my-2 mb-4 text-white space-y-2 dark:text-gray-400 px-5 py-5 max-w-150 max-h-11 font-poppins text-center  ">
+          <p className="sm:m-0 mx-2 my-2 mb-4 text-white space-y-2  px-5 py-5 max-w-150 max-h-11 font-poppins text-center  ">
             {" "}
             with Spacetotech
           </p>
         </div>
-        <div className="  md:text-3xl my-5 text-sm ml-1  text-white dark:text-gray-400 px-2  font-poppins  text-center">
-          <p className="text-sm md:text-2xl mt-2 text-white dark:text-gray-400 px-2   font-poppins  text-center">
+        <div className="  md:text-3xl my-5 text-sm ml-1  text-white  px-2  font-poppins  text-center">
+          <p className="text-sm md:text-2xl mt-2 text-white  px-2   font-poppins  text-center">
             Spacetotech is turning ideas into reality for a decade now.Partner
             with us{" "}
           </p>
-          <p className="text-sm md:text-2xl  text-white dark:text-gray-400 px-2  font-poppins  text-center">
+          <p className="text-sm md:text-2xl  text-white  px-2  font-poppins  text-center">
             {" "}
             drive digitization to your businesswith innovation and technology
           </p>
