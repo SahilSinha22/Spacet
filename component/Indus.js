@@ -4,7 +4,7 @@ const Indus = () => {
   return (
     <div className="border border-box  flex flex-col gap-20  ">
       <div className=" font-poppins text-center">
-        <h1 className="  text-blue-500 mb-2 md:text-6xl xl:text-6xl mt-10 capitalize font-bold font-poppins text-3xl text-center dark:text-white">
+        <h1 className="  text-blue-500 mb-2 md:text-6xl xl:text-6xl mt-10 capitalize font-bold font-poppins text-3xl text-center">
           Industries we serve
         </h1>
         <p className="xl:text-2xl md:text-2xl 2xl:text-2xl text-black text-sm  sm:text-xl text-center justify-center px-5 sm:py-5">
