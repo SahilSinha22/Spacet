@@ -45,13 +45,26 @@ const experties = () => {
       }}
     >
       <div className=" w-full flex  flex-col md:flex-row    py-5 text-xl  ">
-        <div className=" xl:text-xl 2xl:text-3xl   flex flex-col gap-2  py-2 justify-center space-y-2">
+        <div className="  xl:text-xl 2xl:text-3xl   flex flex-col gap-2  py-2 justify-center space-y-2">
           <span className="md:text-5xl xl:text-4xl 2xl:text-5xl   ml-4 text-2xl font-poppins font-bold text-white">
             Get in Touch with
           </span>
-          <p className="  stroke-current stroke-2 stroke-text-white md:text-7xl   xl:mt-0  mb-2 text-6xl  text-blue-600  font-bold font-sans size-13 leading-19 px-5 py-2 max-w-157 max-h-auto ml-35">
-            Our <br width={100} height={10} /> Experts
-          </p>
+          
+          <div className="relative  flex flex-col ">
+          
+          <span className="  absolute -left-0.5 stroke-current stroke-2 stroke-text-white md:text-8xl   xl:mt-0  mb-2 text-8xl  text-white  font-bold font-sans size-13 leading-19 px-5 py-2 max-w-157 max-h-auto ml-35">
+            Our
+          </span>
+          <span className=" absolute -bottom-0.5 -left-1 stroke-current stroke-2 stroke-text-white md:text-7xl   xl:mt-0  mb-2 text-7xl  text-white  font-bold font-sans size-13 leading-19 px-5 py-2 max-w-157 max-h-auto ml-35">
+            Experts
+          </span>
+          <span className=" z-0 stroke-current stroke-2 stroke-text-white md:text-7xl   xl:mt-0  mb-2 text-7xl  text-blue-600  font-bold font-sans size-13 leading-19 px-5 py-2 max-w-157 max-h-auto ml-35">
+            Our
+          </span>
+          <span className="pt-8    z-0 stroke-current stroke-2 stroke-text-white md:text-7xl   xl:mt-0  mb-2 text-7xl  text-blue-600  font-bold font-sans size-13 leading-19 px-5 py-2 max-w-157 max-h-auto ml-35">
+            Experts
+          </span>
+          </div>
           <div className="xl:text-4xl 2xl:text-xl text-xl text-white space-x-4  py-4 my-4 space-y-4">
             <span className=" md:text-4xl lg:text-3xl 2xl:text-5xl   text-2xl font-semibold ml-4 text-white">
               Communicate with us
