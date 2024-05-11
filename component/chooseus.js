@@ -4,7 +4,7 @@ const chooseus = () => {
   return (
     <div className="border border-box  flex flex-col  gap-20 font-poppins text-center">
       <div className="flex flex-col items-center">
-        <h1 className="text-blue-500 xl:text-6xl md:text-6xl  mt-10 capitalize font-bold font-poppins text-3xl text-center dark:text-white">
+        <h1 className="text-blue-500 xl:text-6xl md:text-6xl  mt-10 capitalize font-bold font-poppins text-3xl text-center ">
           Why Choose Us
         </h1>
         <p className="xl:text-2xl md:text-2xl 2xl:text-2xl  text-black text-sm  sm:text-xl text-center justify-center px-5 py-5 ">
