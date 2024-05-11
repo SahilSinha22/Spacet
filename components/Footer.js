@@ -3,7 +3,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer classNameName=" md:mb-10 border-2 items-center justify-center flex flex-col  w-full flex   bg-slate-800 text-white  text-xs">
-      <div className="  flex-col sm:flex-row 2xl:justify-around 2xl:mr-0  xl:justify-between   xl:mx-4  2xl:px-4 xl:text-xl 2xl:text-3xl  sm:ml-4 grid grid-cols-3  sm:gap-6  sm:justify-between sm:gap-y-10 lg:grid-cols-4  md:flex md:justify-between max-w-screen-xl px-4 py-5 mx-auto text-sm text-gray-500 dark:text-gray-400 md:grid-cols-3 md:px-6">
+      <div className="  flex-col sm:flex-row 2xl:justify-around 2xl:mr-0  xl:justify-between   xl:mx-4  2xl:px-4 xl:text-xl 2xl:text-3xl  sm:ml-4 grid grid-cols-3  sm:gap-6  sm:justify-between sm:gap-y-10 lg:grid-cols-4  md:flex md:justify-between max-w-screen-xl px-4 py-5 mx-auto text-sm text-gray-500  md:grid-cols-3 md:px-6">
         <ul
           className=" mr-2 flex-col 2xl:justify-around xl:justify-between  xl:text-xl 2xl:text-3xl   mb-4 sm:flex sm:flex-col space-y-5 md:mb-0 md:block"
           aria-labelledby="mega-menu-full-image-button"
